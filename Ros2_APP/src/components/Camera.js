@@ -10,7 +10,7 @@ const Camera = ({ ros, topic = '/camera/image_raw' }) => {
 
     // For MJPEG streams, you might need to use a different approach
     // Many ROS cameras provide an MJPEG HTTP stream
-    const mjpegUrl = 'http://192.168.2.23:9090/stream?topic=/camera/image_raw';
+    const mjpegUrl = 'http://192.168.2.7:9090/stream?topic=/camera/image_raw';
     
     setImageUrl(mjpegUrl);
     setLoading(false);

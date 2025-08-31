@@ -13,7 +13,7 @@ const CameraScreen = () => {
 
   useEffect(() => {
     const rosConnection = new ROSLIB.Ros({
-      url: 'ws://192.168.2.23:9090', // your rosbridge URL
+      url: 'ws://192.168.2.7:9090', // your rosbridge URL
     });
 
     rosConnection.on('connection', () => {

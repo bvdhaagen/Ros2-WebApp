@@ -139,7 +139,7 @@ const LidarScreen = () => {
         
         // Create ROS connection
         const ros = new ROSLIB.Ros({
-          url: 'ws://192.168.2.23:9090' // Change this to your ROS bridge URL
+          url: 'ws://192.168.2.7:9090' // Change this to your ROS bridge URL
         });
 
         ros.on('connection', () => {
